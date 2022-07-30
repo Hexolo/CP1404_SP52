@@ -11,6 +11,9 @@ def main():
         print("Invalid score")
         score = float(input("Enter score: "))
     print(get_score(score))
+    score = random.randint(0, 100)
+    print(f"Score: {score}")
+    print(get_score(score))
 
 
 def get_score(score):
