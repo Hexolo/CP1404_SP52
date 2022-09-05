@@ -15,7 +15,7 @@ class MVCDemo(App):
         """Construct the app."""
         self.title = "Simple MVC Demo"
         self.root = Builder.load_file('mvc.kv')
-        self.message = "Type in the field & press Enter"
+        self.message = ""
         return self.root
 
     def handle_update(self):
