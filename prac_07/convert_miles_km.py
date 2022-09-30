@@ -5,7 +5,7 @@ MILES_TO_KM = 1.60934
 
 
 class DistanceConverterApp(App):
-    """ istanceConverterApp is a Kivy App for converting miles to kilometres """
+    """ DistanceConverterApp is a Kivy App for converting miles to kilometres """
 
     def build(self):
         """ Construct the App """
